@@ -15,15 +15,23 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
 ////////////////////////////////////////////////////////////////
 */
 /* Base */
+
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 html {
   overflow-x: hidden; }
 
 body {
+  font-family: 'Inter', sans-serif;
   line-height: 1.7;
   color: gray;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1rem; }
-
+  
 ::-moz-selection {
   background: #000;
   color: #fff; }
@@ -31,6 +39,10 @@ body {
 ::selection {
   background: #000;
   color: #fff; }
+
+.grettings{
+  letter-spacing: -0.75px;
+}
 
 a {
   -webkit-transition: .3s all ease;
