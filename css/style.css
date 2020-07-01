@@ -25,6 +25,18 @@ html { font-family: 'Inter', sans-serif; }
 html {
   overflow-x: hidden; }
 
+.img-mimi{
+  box-shadow:
+  0 0px 2.6px -15px rgba(0, 0, 0, 0.031),
+  0 0px 6.3px -15px rgba(0, 0, 0, 0.056),
+  0 0px 11.8px -15px rgba(0, 0, 0, 0.079),
+  0 0px 21px -15px rgba(0, 0, 0, 0.102),
+  0 0px 39.3px -15px rgba(0, 0, 0, 0.132),
+  0 0px 94px -15px rgba(0, 0, 0, 0.2)
+;
+
+}
+
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.7;
@@ -128,7 +140,7 @@ body:after {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 2em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
